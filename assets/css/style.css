@@ -1,0 +1,106 @@
+body {
+    background-image: url("../images/capturesmall.jpg");
+}
+
+.container {
+    width: 1100px;
+    height: 650px;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: 200px;
+    background-color: rgb(70, 65, 65);
+    color: white;
+}
+.container2 {
+    width: 1100px;
+    height: 1460px;
+    margin-top: 2%;
+    margin-bottom: 80px;
+    margin-bottom: auto;
+    margin-left: 200px;
+    background-color: rgb(70, 65, 65);
+    color: white;
+}
+.forHeader {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    font-size: 100px;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.firstButton {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    color: rgb(70, 65, 65);
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 4px;
+    border-color: black;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.submitButton:hover,
+.firstButton:hover {
+    background-color: black;
+    color: white;
+}
+.secondPage {
+    position: absolute;
+    width: 1060px;
+    height: auto;
+    margin-top: 12%;
+}
+.thirdPage {
+    position: absolute;
+    width: 1060px;
+    height: 1000px;
+    margin-top: 12%;
+}
+.myCol {
+    height: 220px;
+    text-align: center;
+}
+.submitButton {
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    color: rgb(70, 65, 65);
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 4px;
+    border-color: black;
+    margin-bottom: 3%;
+    margin-left: 40%;
+}
+.forTimer {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 80px;
+    margin-left: 0;
+    margin-top: 0;
+    color: rgb(2, 184, 2);
+}
+.forMidTimer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    margin-left: 0;
+    margin-top: -25%;
+    color: rgb(2, 184, 2);
+}
+.forRows {
+    margin-top: 5%;
+}

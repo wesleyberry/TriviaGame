@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="forHeader">Archer Trivia</h2>
+        <button class="firstButton">Start</button>
+        <div class="secondPage">
+            <div class="forTimer">
+                <h3>Time Remaining: <span class="time"></span></h3>
+            </div>
+            <form onsubmit="return results();" action="assets/javascript/app.js"></form>
+                <div class="forRows">
+                <div class="row">
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Who has not been considered a candidate for Archer's father?</h3>
+                        <input type="radio" name="1q" value="0"> Buddy Rich<br> 
+                        <input type="radio" name="1q" value="0"> Len Trexler<br> 
+                        <input type="radio" name="1q" value="1"> Krieger<br> 
+                        <input type="radio" name="1q" value="0"> Savio Mascalzoni<br> 
+                    </div>
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Which character "gets off" by erotic asphyxiation most often?</h3>
+                        <input type="radio" name="2q" value="0"> Lana Kane<br> 
+                        <input type="radio" name="2q" value="1"> Cheryl (Carol, Cristal, Cherlene) Tunt<br> 
+                        <input type="radio" name="2q" value="0"> Stirling Archer<br> 
+                        <input type="radio" name="2q" value="0"> Barry<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Which character often gets teased for his/her large hands?</h3>
+                        <input type="radio" name="3q" value="1"> Lana Kane<br> 
+                        <input type="radio" name="3q" value="0"> Carol Tunt<br> 
+                        <input type="radio" name="3q" value="0"> Stirling Archer<br> 
+                        <input type="radio" name="3q" value="0"> Krieger<br>
+                    </div>
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Which agency has ISIS not worked with?</h3>
+                        <input type="radio" name="4q" value="1"> TSA<br> 
+                        <input type="radio" name="4q" value="0"> ODIN<br> 
+                        <input type="radio" name="4q" value="0"> CIA<br> 
+                        <input type="radio" name="4q" value="0"> KGB<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Which of the following is not a common expression/ phrase used in the show?</h3>
+                        <input type="radio" name="5q" value="0"> "Phrasing"<br> 
+                        <input type="radio" name="5q" value="0"> "Sploosh"<br> 
+                        <input type="radio" name="5q" value="0"> "Danger Zone!"<br> 
+                        <input type="radio" name="5q" value="1"> "Oh my gosh!"<br>
+                    </div>
+                    <div class="col-6 myCol">
+                        <h3 class="questions">What kind of farm did Pam work on?</h3>
+                        <input type="radio" name="6q" value="0"> Cabbage<br> 
+                        <input type="radio" name="6q" value="0"> Weed<br> 
+                        <input type="radio" name="6q" value="0"> Corn<br> 
+                        <input type="radio" name="6q" value="1"> Dairy<br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 myCol">
+                        <h3 class="questions">What year did Archer Season - 1 Air?</h3>
+                        <input type="radio" name="7q" value="1"> 2009<br> 
+                        <input type="radio" name="7q" value="0"> 2005<br> 
+                        <input type="radio" name="7q" value="0"> 2011<br> 
+                        <input type="radio" name="7q" value="0"> 2002<br>
+                    </div>
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Which underground activity has Pam not been a part of?</h3>
+                        <input type="radio" name="8q" value="0"> Car Racing<br> 
+                        <input type="radio" name="8q" value="0"> Chicken fights<br> 
+                        <input type="radio" name="8q" value="0"> Fighting<br> 
+                        <input type="radio" name="8q" value="1"> Pimping<br>
+                    </div>
+                </div>
+                <div class="forMidTimer">
+                    <h3>Time Remaining: <span class="time"></span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-6 myCol">
+                        <h3 class="questions">What sport did Archer excel at in boarding school?</h3>
+                        <input type="radio" name="9q" value="0"> Wrestling<br> 
+                        <input type="radio" name="9q" value="1"> Lacrosse<br> 
+                        <input type="radio" name="9q" value="0"> Football<br> 
+                        <input type="radio" name="9q" value="0"> Tennis<br>
+                    </div>
+                    <div class="col-6 myCol">
+                        <h3 class="questions">Cyril tries to file an insurance claim for: </h3>
+                        <input type="radio" name="10q" value="0"> "penis enlargement"<br> 
+                        <input type="radio" name="10q" value="0"> "fat suction"<br> 
+                        <input type="radio" name="10q" value="0"> "tooth removal"<br> 
+                        <input type="radio" name="10q" value="1"> "penis ensmallment"<br>
+                    </div>
+                </div>
+                </div>
+                <input type="submit" class="submitButton" value="Submit">
+            </form>
+        </div>
+        <div class="thirdPage">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
