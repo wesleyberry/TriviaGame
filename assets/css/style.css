@@ -59,8 +59,9 @@ body {
 .thirdPage {
     position: absolute;
     width: 1060px;
-    height: 1000px;
+    height: 400px;
     margin-top: 12%;
+    text-align: center;
 }
 .myCol {
     height: 220px;
@@ -104,3 +105,10 @@ body {
 .forRows {
     margin-top: 5%;
 }
+/* .forResults {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 80%;
+    height: 20%;
+} */

@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    var takenQuiz = false;
     var SIZE = 1000
     var time = 60;
     $(".secondPage").hide();
@@ -20,6 +21,12 @@ $(document).ready(function() {
     });
     
     $("input[type='submit']").on("click", function(){
+        atEnd();
+    });
+
+    function atEnd() {
+        $(".secondPage").hide();
+        $("div.container").removeClass("container2");
         $(".thirdPage").show();
         var totalCorrect = 0;
         var totalWrong = 0;
@@ -29,25 +36,29 @@ $(document).ready(function() {
         radioValue = $("input[name='" + i + "q']:checked").val();
             if(radioValue == 1){
                 totalCorrect++;
+                takenQuiz = true;
             } else if (radioValue ==0) {
-                totalWrong++;           
+                totalWrong++;  
+                takenQuiz = true;         
             } else {
                 noGuess++;
+                takenQuiz = true;
             }
         }
+        $(".totalCorrect").html(totalCorrect);
+        $(".totalWrong").html(totalWrong);
+        $(".noGuess").html(noGuess);
         console.log("Correct answers: " + totalCorrect);
         console.log("Wrong answers: " + totalWrong);
         console.log("No guesses: " + noGuess);
-    });
-
-    function atEnd() {
-        console.log(totalCorrect);
     }
 
     function everySecond() {
-        time--;
-        $(".time").html(time);
-        console.log(time);
+        if((time > 0) && (takenQuiz == false)) {
+            time--;
+            $(".time").html(time);
+            console.log(time);
+        } 
     }
 
 });
