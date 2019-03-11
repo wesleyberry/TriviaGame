@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var takenQuiz = false;
     var SIZE = 1000
-    var time = 60;
+    var time = 70;
     $(".secondPage").hide();
     $(".thirdPage").hide();
 
@@ -17,7 +17,8 @@ $(document).ready(function() {
         $("div.container").removeClass(".container");
         $(".secondPage").show();
         setInterval(everySecond, SIZE);
-        setTimeout(atEnd, SIZE * 60);
+        setTimeout(atEnd, SIZE * time);
+        // colorChanges();
     });
     
     $("input[type='submit']").on("click", function(){
@@ -31,7 +32,7 @@ $(document).ready(function() {
         var totalCorrect = 0;
         var totalWrong = 0;
         var noGuess = 0;
-        var radioValue
+        var radioValue;
         for(var i = 1; i <= $('.myCol').length; i++) {
         radioValue = $("input[name='" + i + "q']:checked").val();
             if(radioValue == 1){
@@ -59,6 +60,17 @@ $(document).ready(function() {
             $(".time").html(time);
             console.log(time);
         } 
+        colorChanges();
     }
 
+    function colorChanges() {
+        if(time < 21 && time >= 11) {
+            $(".forTimer").css({"color":"orange"});
+            $(".forMidTimer").css({"color":"orange"});
+    
+        } else if (time < 11) {
+            $(".forTimer").css({"color":"red"});
+            $(".forMidTimer").css({"color":"red"});
+        }
+    }
 });

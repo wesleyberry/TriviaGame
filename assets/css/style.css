@@ -66,6 +66,10 @@ body {
 .myCol {
     height: 220px;
     text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: white;
 }
 .submitButton {
     position: absolute;
