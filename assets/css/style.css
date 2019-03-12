@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+    position: absolute;
     width: 1100px;
     height: 650px;
     margin-top: 2%;
@@ -12,7 +13,8 @@ body {
     color: white;
 }
 .container2 {
-    width: 1100px;
+    position: absolute;
+    width: 900px;
     height: 1460px;
     margin-top: 2%;
     margin-bottom: 80px;
@@ -52,7 +54,7 @@ body {
 }
 .secondPage {
     position: absolute;
-    width: 1060px;
+    width: 100%;
     height: auto;
     margin-top: 12%;
 }
@@ -116,3 +118,345 @@ body {
     width: 80%;
     height: 20%;
 } */
+@media screen and (max-width: 360px) {
+    .container {
+        width: 90%;
+        margin-left: 20px;
+        height: 600px;
+    }
+    .container2 {
+        width: 95%;
+        margin-top: 2%;
+        height: 1950px;
+        margin-bottom: 10px;
+        margin-bottom: auto;
+        margin-left: 10px;
+        padding-left: 5%;
+    }
+    .secondPage {
+        width: 90%;
+        height: auto;
+        margin-top: 18%;
+    }
+    .firstButton {
+        position: absolute;
+        margin-top: 65%;
+        margin-left: 22%;
+        width: 45%;
+        height: 15%;
+    }
+    .questions {
+        font-size: 6vw;
+    }
+    .submitButton {
+        width: 40%;
+        height: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 30%;
+        font-size: 6vw;
+    }
+    .forHeader {
+        width: 90%;
+        font-size: 50px;
+        height: auto;
+        margin-left: 3%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    .forTimer {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+    .forMidTimer {
+        margin-top: -20%;
+    }
+    .thirdPage {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        margin-top: 30%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .myCol {
+        height: 340px !important;
+
+    }
+    .forRows {
+        margin-top:50px;
+        font-size: 5vw;
+    }
+}
+
+
+@media screen and (max-width: 575px) and (min-width: 361px){
+    .container {
+        width: 90%;
+        margin-left: 20px;
+        height: 600px;
+    }
+    .container2 {
+        width: 90%;
+        margin-top: 2%;
+        height: 1950px;
+        margin-bottom: 10px;
+        margin-bottom: auto;
+        margin-left: 40px;
+        padding-left: 5%;
+    }
+    .secondPage {
+        width: 90%;
+        height: auto;
+        margin-top: 18%;
+    }
+    .firstButton {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 30%;
+        width: 30%;
+        height: 12%;
+    }
+    .questions {
+        /* font-size: 4vw; */
+    }
+    .submitButton {
+        width: 40%;
+        height: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 30%;
+        font-size: 6vw;
+    }
+    .forHeader {
+        width: 90%;
+        font-size: 60px;
+        height: auto;
+        margin-left: 7%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    .forTimer {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+    .forMidTimer {
+        margin-top: -42%;
+    }
+    .thirdPage {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        margin-top: 25%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .myCol {
+        height: 340px !important;
+
+    }
+    .forRows {
+        margin-top:50px;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .container {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .container2 {
+        width: 90%;
+        margin-top: 2%;
+        height: 2000px;
+        margin-bottom: 10px;
+        margin-bottom: auto;
+        margin-left: 40px;
+        padding-left: 5%;
+    }
+    .secondPage {
+        width: 90%;
+        height: auto;
+        margin-top: 18%;
+    }
+    .firstButton {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 40%;
+        width: 20%;
+        height: 12%;
+    }
+    .submitButton {
+        width: 40%;
+        height: 7%;
+        margin-bottom: 3%;
+        margin-left: 30%;
+        font-size: 6vw;
+    }
+    .forHeader {
+        width: 90%;
+        font-size: 76px;
+        height: auto;
+        margin-left: 8%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    .forTimer {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+    .forMidTimer {
+        margin-top: -42%;
+    }
+    .thirdPage {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        margin-top: 25%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .myCol {
+        height: 340px !important;
+
+    }
+    .forRows {
+        margin-top:50px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .container {
+        width: 70%;
+        margin-left: 90px;
+    }
+    .container2 {
+        width: 900px;
+        margin-top: 2%;
+        margin-bottom: 70px;
+        margin-bottom: auto;
+        margin-left: 50px;
+        padding-left: 5%;
+    }
+    .secondPage {
+        width: 90%;
+        height: auto;
+        margin-top: 18%;
+    }
+    .firstButton {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 40%;
+        width: 20%;
+        height: 12%;
+    }
+    .submitButton {
+        width: 25%;
+        height: 8%;
+        margin-bottom: 3%;
+        margin-left: 39%;
+    }
+    .forHeader {
+        width: 90%;
+        font-size: 76px;
+        height: auto;
+        margin-left: 8%;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    .forTimer {
+        margin-left: 0;
+        margin-top: -4%;
+        margin-bottom: 3%;
+    }
+    .forMidTimer {
+        margin-top: -42%;
+    }
+    .thirdPage {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        margin-top: 25%;
+        margin-left: 2%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .container {
+        width: 70%;
+    }
+    .container2 {
+        width: 900px;
+        margin-top: 2%;
+        margin-bottom: 80px;
+        margin-bottom: auto;
+        margin-left: 200px;
+        padding-left: 5%;
+    }
+    .secondPage {
+        width: 90%;
+        height: auto;
+        margin-top: 12%;
+    }
+    .firstButton {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 40%;
+    }
+    .forHeader {
+        width: 90%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+    .forMidTimer {
+        margin-top: -42%;
+    }
+    .thirdPage {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        margin-top: 25%;
+        margin-left: 2%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px)  {
+    .container {
+        width: 900px;
+    }
+    .firstButton {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 40%;
+    }
+    .forTimer {
+        margin-left: 0;
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+    .secondPage {
+        position: absolute;
+        width: 95%;
+        height: auto;
+        margin-top: 12%;
+    }
+    .forMidTimer {
+        margin-top: -35%;
+    }
+    .thirdPage {
+        position: absolute;
+        width: 90%;
+        height: 400px;
+        margin-top: 20%;
+        margin-left: 2%;
+        text-align: center;
+    }
+}

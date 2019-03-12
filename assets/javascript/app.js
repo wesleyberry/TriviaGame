@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var takenQuiz = false;
-    var SIZE = 1000
+    var SIZE = 1000;
     var time = 70;
     $(".secondPage").hide();
     $(".thirdPage").hide();
